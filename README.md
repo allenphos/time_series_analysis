@@ -12,7 +12,7 @@ Predict daily sales for 50 items across 10 stores for the next 30 and 90 days us
 
 ---
 
-## 🚀 Workflow Overview
+## Workflow Overview
 
 ### 1. **Exploratory Data Analysis (EDA)**
 - Time series visualization with Plotly
