@@ -1,4 +1,4 @@
-# Store Item Demand Forecasting
+#  Store Item Demand Time Series Forecasting
 
 ## Goal
 Predict daily sales for 50 items across 10 stores for the next 30 and 90 days using various time series and machine learning models.
