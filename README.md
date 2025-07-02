@@ -1,11 +1,11 @@
-# 📊 Store Item Demand Forecasting
+# Store Item Demand Forecasting
 
-## 🌟 Goal
+## Goal
 Predict daily sales for 50 items across 10 stores for the next 30 and 90 days using various time series and machine learning models.
 
 ---
 
-## 📂 Dataset
+## Dataset
 - **Source**: [Kaggle - Store Item Demand Forecasting Challenge](https://www.kaggle.com/c/demand-forecasting/data)
 - **Size**: 913,000 rows over a 5-year period (2013-01-01 to 2017-12-31)
 - **Fields**: `date`, `store`, `item`, `sales`
@@ -61,7 +61,7 @@ Predict daily sales for 50 items across 10 stores for the next 30 and 90 days us
 
 ---
 
-## 📊 Visualization
+## Visualization
 - Interactive dashboards (Plotly)
   - Forecasted sales per item/store
   - Actual vs forecasted plots by item and store
@@ -70,7 +70,7 @@ Predict daily sales for 50 items across 10 stores for the next 30 and 90 days us
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 - **Mean Absolute Percentage Error (MAPE)** across models:
   - Prophet: **23.8%** (validation), **20.4%** (backtest)
   - XGBoost: 25.9%
@@ -79,14 +79,14 @@ Predict daily sales for 50 items across 10 stores for the next 30 and 90 days us
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 - Python
 - Libraries: `pandas`, `darts`, `prophet`, `plotly`, `statsmodels`, `xgboost`, `ipywidgets`
 - Notebooks: Google Colab
 
 ---
 
-## 📊 Key Learnings
+## Key Learnings
 - Prophet consistently outperformed other models for multivariate time series
 - Feature engineering and scaling improve ML model performance
 - Backtesting and residual analysis are crucial for robust evaluation
@@ -100,7 +100,7 @@ You can run the main notebook interactively in Google Colab:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://colab.research.google.com/github/username/repo/blob/main/notebooks/timeseries.ipynb](https://colab.research.google.com/drive/1C8r2Jutet8WzaGQjlSPglQA-zPPjj89s?usp=drive_open#scrollTo=eTmgpP3vZK5T))
 ---
 
-## 🚧 Future Work
+## Future Work
 - Hyperparameter optimization (Optuna)
 - Cross-store learning with transfer learning
 - Add external regressors (holidays, promotions)
@@ -108,6 +108,6 @@ You can run the main notebook interactively in Google Colab:
 
 ---
 
-## 🛌 Author
+## Author
 - Project by: *Anastasiia Alyoshkina*
 - Contact: *anastasia.alshkn@gmail.com*
